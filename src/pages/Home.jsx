@@ -33,7 +33,6 @@ export default function Home() {
             <p className="lead">Crystal clear playback, 27 audio filters, playlists, Spotify integration, and a live ticket support desk your members can reach straight from this website.</p>
             <div className="hero-ctas">
               <a href={botInviteUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">➕ Add to Discord</a>
-              <Link to="/commands" className="btn btn-ghost">📖 View Commands</Link>
               <a href={supportServerInvite} className="btn btn-ghost" target="_blank" rel="noopener noreferrer">💬 Join Support Server</a>
             </div>
             <div className="stat-row">
