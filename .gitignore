@@ -1,0 +1,15 @@
+# --- Environment secrets: NEVER commit these ---
+.env
+.env.*
+!.env.example
+
+# --- Dependencies ---
+node_modules/
+
+# --- Build output ---
+dist/
+build/
+
+# --- Logs / OS junk ---
+*.log
+.DS_Store
